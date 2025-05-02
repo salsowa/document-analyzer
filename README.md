@@ -14,20 +14,33 @@ A Python CLI application that helps teachers analyze and grade student documents
 
 1. **Clone the repo**  
    git clone https://github.com/your-username/document-analyzer.git
+   
    cd document-analyzer
+   
 Install dependencies
+
 pip install -r requirements.txt
+
 Set OpenAI API key (optional)
 
 set OPENAI_API_KEY=your_key_here  # Windows
+
 export OPENAI_API_KEY=your_key_here  # macOS/Linux
+
 Initialize database (first time only)
+
 python database.py
+
 Run the application
+
 python app.py
+
 Example Workflow
+
 Teacher logs in and uploads a document
+
 System extracts text and uses GPT to grade and give feedback
+
 Student logs in to view grade and submit a comment
 
 ## Future Enhancements
