@@ -32,5 +32,7 @@ Student logs in to view grade and submit a comment
 
 ## Future Enhancements
 Web interface using Streamlit or Flask
+
 Docker deployment
+
 Assignment rubric customization
